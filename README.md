@@ -14,6 +14,13 @@ Desenvolver uma API RESTful para autenticação de usuários, que permita opera�
 
 ## Documentação da API
 
+- **ATENÇÃO**: Todas as requisições devem conter o seguinte `header`:
+```json
+{
+  "content-type": "application/json"
+}
+```
+
 #### Ping
 
 ```http
