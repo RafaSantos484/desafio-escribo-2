@@ -38,10 +38,10 @@ Desenvolver uma API RESTful para autenticação de usuários, que permita opera�
 
 ```json
 {
-    "email": string,
-    "nome": string,
-    "senha": string,
-    "telefones": {"ddd": string, "numero": string}[]
+    "email": "string",
+    "nome": "string",
+    "senha": "string",
+    "telefones": {"ddd": "string", "numero": "string"}[]
 }
 ```
 
@@ -49,11 +49,11 @@ Desenvolver uma API RESTful para autenticação de usuários, que permita opera�
 
 ```json
 {
-    "id": string,
-    "data_criacao": Date,
-    "data_atualizacao": Date,
-    "ultimo_login": Date,
-    "token": string
+  "id": "string",
+  "data_criacao": "Date",
+  "data_atualizacao": "Date",
+  "ultimo_login": "Date",
+  "token": "string"
 }
 ```
 
@@ -75,13 +75,13 @@ Desenvolver uma API RESTful para autenticação de usuários, que permita opera�
 
 ```json
 {
-    "id": string,
-    "email": string,
-    "nome": string,
-    "telefones": {"ddd": string, "numero": string}[],
-    "data_criacao": Date,
-    "data_atualizacao": Date,
-    "ultimo_login": Date,
+    "id": "string",
+    "email": "string",
+    "nome": "string",
+    "telefones": {"ddd": "string", "numero": "string"}[],
+    "data_criacao": "Date",
+    "data_atualizacao": "Date",
+    "ultimo_login": "Date",
 }
 ```
 
@@ -95,8 +95,8 @@ Desenvolver uma API RESTful para autenticação de usuários, que permita opera�
 
 ```json
 {
-    "email": string,
-    "senha": string,
+  "email": "string",
+  "senha": "string"
 }
 ```
 
@@ -104,11 +104,11 @@ Desenvolver uma API RESTful para autenticação de usuários, que permita opera�
 
 ```json
 {
-    "id": string,
-    "data_criacao": Date,
-    "data_atualizacao": Date,
-    "ultimo_login": Date,
-    "token": string
+  "id": "string",
+  "data_criacao": "Date",
+  "data_atualizacao": "Date",
+  "ultimo_login": "Date",
+  "token": "string"
 }
 ```
 
@@ -123,6 +123,6 @@ O projeto utiliza as seguintes variáveis de ambiente:
 ## URL para testes
 
 Pode-se testar a API através da seguinte URL:  
-`...`
+`https://desafio-escribo-2.onrender.com`
 
 - **ATENÇÃO**: O serviço que está hospedando esta API entra em hibernação caso não receba requisições por 15 minutos. Ao receber requisições enquanto está hibernando, ele demora um pouco para voltar ao ar. Antes de testar a API, envie requisições para a rota de ping `GET /` até que haja resposta.
